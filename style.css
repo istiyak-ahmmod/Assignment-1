@@ -34,6 +34,7 @@ nav .btn-style{
 .banner{
     text-align: center;
     margin-top: 160px;
+    color: #252432;
     margin-bottom: 160px;
 }
 .banner h4{
@@ -58,10 +59,40 @@ font-size: 16px;
 font-weight: bold;
     padding: 12px 36px;
 }
+.see{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    gap: 200px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.see img{
+    border-radius: 48px;
+    height: 300px;
+}
 /* button hover */
 .btn-style:hover
 {
     background-color: rgb(33, 33, 128);
     border: none;
     color: #d3c1c1;
+}
+.see-content h4{
+font-family: Raleway;
+font-size:42px ;
+font-weight: bold;
+ color: #252432;;
+ margin-bottom: 23px;
+}
+.see-content p{
+    font-family: Raleway;
+font-size:24px ;
+font-weight: 400;
+ color: #2524327c;
+ margin-bottom: 23px;
+}
+.see-content  button{
+     margin-bottom: 23px;
 }
