@@ -115,6 +115,61 @@ nav .btn-style {
 .see-content button {
     margin-bottom: 23px;
 }
+
+.users-section {
+  padding: 40px 20px;
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.users-section h2 {
+  font-size: 42px;
+  margin-bottom: 40px;
+  color: #252432;
+    font-family: Raleway;
+}
+
+.users-container {
+  display: flex;
+  
+  justify-content: center;
+  gap: 20px;
+}
+
+.users-card {
+  background-color: white;
+  border-radius: 12px;
+box-shadow: 2px 2px 12px #4E47FF;
+  padding: 24px;
+  width: 300px;
+  text-align: left;
+}
+
+
+
+.users-card h3 {
+ 
+  margin: 10px 0;
+}
+
+.users-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
 /* Productive-Users style */
 .Productive-Users{
      margin: 0 auto;
@@ -156,8 +211,8 @@ nav .btn-style {
 
     max-width: 70%;
     background-color: #FFFFFF;
-    border-radius: 5px;
-    padding: 150px 70px;
+    border-radius: 20px;
+    padding: 120px 70px;
     margin: 50px auto;
     text-align: center;
     border: 2px solid #fffcfc;
@@ -181,6 +236,7 @@ nav .btn-style {
 }
 .focus-better img{
    height: 300px; 
+   border-radius: 48px;
 }
 .Let{
     display: flex;
@@ -190,6 +246,7 @@ nav .btn-style {
     max-width: 70%;
     margin: 0 auto;
     padding: 50px 70px;
+    border-radius: 15px;
      box-shadow: 2px 2px 12px #4E47FF;
     gap: 200px;
     margin-bottom: 50px;
